@@ -1,24 +1,32 @@
-# Built application files
+﻿# Gradle
+.gradle/
 build/
 out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
 
-# IDE files
+# IDE
 .idea/
 *.iml
+*.ipr
+*.iws
 .vscode/
+.settings/
+.project
+.classpath
 
-# Gradle
-.gradle/
-gradle-app.setting
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
 # Logs
+logs/
 *.log
 
-# Minecraft launcher files
-.assets/
-.assets/
-.natives/
+# JAR файлы (сборки)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Временные файлы
+*.tmp
+*.temp

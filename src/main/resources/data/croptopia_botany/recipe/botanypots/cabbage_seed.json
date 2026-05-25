@@ -1,0 +1,23 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "croptopia_botany:botanypots/cabbage"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "input": {
+    "item": "croptopia:cabbage_seed"
+  },
+  "grow_time": 1200,
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "block": "croptopia:cabbage_crop"
+}

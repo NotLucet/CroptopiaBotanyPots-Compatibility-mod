@@ -1,0 +1,24 @@
+# Built application files
+build/
+out/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Gradle
+.gradle/
+gradle-app.setting
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Minecraft launcher files
+.assets/
+.assets/
+.natives/
